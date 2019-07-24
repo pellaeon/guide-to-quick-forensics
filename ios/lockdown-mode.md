@@ -1,0 +1,3 @@
+# Sobre o modo de Isolamento
+
+O iOS 16 introduziu o [Modo de Isolamento](https://support.apple.com/pt-br/105120) (_Lockdown Mode_), que desativa uma quantidade significativa de recursos para eliminar a possibilidade de exploração por parte de malware. A documentação da Apple não é clara, em termos técnicos, sobre quais recursos são desativados. Embora o Modo de Isolamento provavelmente não interfira no processo forense básico, ele pode interferir no processo forense avançado (usando o MVT). Se o MVT retornar um erro, desative o Modo de Isolamento (e talvez ative o modo avião ao mesmo tempo para evitar novas infecções por malware) enquanto o MVT estiver em execução, e ative-o novamente depois.

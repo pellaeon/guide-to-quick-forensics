@@ -1,25 +1,27 @@
-# Guide to Quick Forensics
+# Introdução
 
-Often times, members of civil society have the more or less justified suspicion of being surveilled. Perhaps they experienced anomalies with their computers or mobile devices, or they have reasons to believe that some of their communications have been intercepted.
+Muitas vezes, membros da sociedade civil têm a suspeita, mais ou menos justificada, de estarem sendo vigiados. Talvez eles tenham tido anomalias em seus computadores ou dispositivos móveis, ou tenham motivos para acreditar que algumas de suas comunicações tenham sido interceptadas.
 
-Technologists and first responders working in civil society are often requested assistance with the inspection of human rights defenders' devices.
-The purpose of this guide is to provide an introduction to a methodology that could be useful for the quick assessment of potential infections. 
+Tecnólogas e socorristas que trabalham na sociedade civil são frequentemente solicitados a ajudar na inspeção de dispositivos de defensoras dos direitos humanos. O objetivo deste guia é apresentar uma introdução a uma metodologia que pode ser útil para a avaliação rápida de possíveis infecções.
 
-While the methodology introduced here by no means is sufficient to provide a definitive and conclusive assessment over the cleanliness of a suspected device, it can help at least to identify the more obvious infections. Ultimately, it is up to your intuition and understanding of the context to determine what are the best recommendations to give. Hopefully this guide will help you getting started doing Quick Forensics, and will provide you the tools and techniques to start practicing and developing your skills.
+Embora a metodologia apresentada aqui não seja, de forma alguma, suficiente para fornecer uma avaliação definitiva e conclusiva sobre a limpeza de um dispositivo suspeito, ela pode ajudar, pelo menos, a identificar as infecções mais óbvias. Em última análise, cabe à sua intuição, e à compreensão do contexto, determinar quais são as melhores recomendações a serem dadas. Esperamos que este guia o ajude a começar a fazer a Análise Forense Rápida e lhe forneça as ferramentas e técnicas para desenvolver suas habilidades.
 
-## Why do Quick Forensics?
+#### Observação
 
-Learning to perform quick forensics helps determine whether additional resources might be required or not. 
+* Este guia é uma bifurcação _(fork_) de [guia original do Security without Borders](https://github.com/securitywithoutborders/guide-to-quick-forensics)
+* Essa bifurcação tem como objetivo manter o conteúdo existente atualizado e adicionar as informações mais recentes.
+* Esta bifurcação está em desenvolvimento no momento. Você pode contribuir com a versão em inglês  [aqui](https://github.com/pellaeon/guide-to-quick-forensics) e com a [**versão em português aqui**](https://github.com/celsobessa/guide-to-quick-forensics/tree/pt-br).
 
-Learning to triage helps determine whether the case requires additional resources or not.
-Being able to extract relevant data means that in-depth investigators will not need access to the device (at least, not immediately).
-More people doing triaging, means better scalability of incident response in civil society.
-Researchers working on targeted threats against civil society are few, and mostly focused on publications.
+### Por que fazer Análises Forenses Rápidas?
 
-## The objectives
+Aprender a executar uma análise forense rápida ajuda a determinar se recursos adicionais podem ser necessários ou não.
 
-When performing quick forensics and responding to a potential compromise, we have the following broad objectives:
+Aprender a fazer triagem ajuda a determinar se o caso requer recursos adicionais. A capacidade de extrair dados relevantes significa que as investigadoras que vão mais a fundo não precisarão acessar o dispositivo (pelo menos não imediatamente). Quanto mais pessoas fizerem triagens, melhor será a escalabilidade da resposta a incidentes na sociedade civil. As pesquisadoras que trabalham com ameaças direcionadas à sociedade civil são poucas e se concentram principalmente em publicações.
 
-1. Try to determine if the device is indeed potentially infected.
-2. Extract sufficient data for subsequent verification and that could be useful for further investigation (for example, to determine what type of malware infected the device).
-3. Determine what to do with the device and how to further assist its owner.
+### Os objetivos
+
+Ao executar uma análise forense rápida e responder a um comprometimento potencial, temos os seguintes objetivos gerais:
+
+1. Tentar determinar se o dispositivo está realmente potencialmente infectado.
+2. Extrair dados suficientes para verificação subsequente e que possam ser úteis para investigação posterior (por exemplo, para determinar que tipo de malware infectou o dispositivo).
+3. Determinar o que fazer com o dispositivo e como ajudar ainda mais seu proprietário.

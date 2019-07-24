@@ -1,0 +1,714 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Monitor Network Traffic · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../android.html" />
+    
+    
+    <link rel="prev" href="linkeddevices.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../preparations.html">
+            
+                <a href="../preparations.html">
+            
+                    
+                    Preparations
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../safety.html">
+            
+                <a href="../safety.html">
+            
+                    
+                    Safety
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../trust.html">
+            
+                <a href="../trust.html">
+            
+                    
+                    Trust
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../backup.html">
+            
+                <a href="../backup.html">
+            
+                    
+                    Backup
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../methodology.html">
+            
+                <a href="../methodology.html">
+            
+                    
+                    Methodology
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../windows.html">
+            
+                <a href="../windows.html">
+            
+                    
+                    Checking Windows Computers
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../windows/autoruns.html">
+            
+                <a href="../windows/autoruns.html">
+            
+                    
+                    Review Programs Launching at Startup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../windows/processes.html">
+            
+                <a href="../windows/processes.html">
+            
+                    
+                    Review Running Processes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../windows/network.html">
+            
+                <a href="../windows/network.html">
+            
+                    
+                    Review Network Connections
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../windows/extract.html">
+            
+                <a href="../windows/extract.html">
+            
+                    
+                    Extract Data for Further Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../mac.html">
+            
+                <a href="../mac.html">
+            
+                    
+                    Checking Mac Computers
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../mac/autoruns.html">
+            
+                <a href="../mac/autoruns.html">
+            
+                    
+                    Review Programs Launching at Startup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../mac/processes.html">
+            
+                <a href="../mac/processes.html">
+            
+                    
+                    Review Running Processes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../mac/kernel.html">
+            
+                <a href="../mac/kernel.html">
+            
+                    
+                    Review Kernel Extensions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../mac/network.html">
+            
+                <a href="../mac/network.html">
+            
+                    
+                    Review Network Connections
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../mac/extract.html">
+            
+                <a href="../mac/extract.html">
+            
+                    
+                    Extract Data for Further Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../smartphones.html">
+            
+                <a href="../smartphones.html">
+            
+                    
+                    Checking Smartphones
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="linkeddevices.html">
+            
+                <a href="linkeddevices.html">
+            
+                    
+                    Check Devices Linked to Chat Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.2" data-path="network.html">
+            
+                <a href="network.html">
+            
+                    
+                    Monitor Network Traffic
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../android.html">
+            
+                <a href="../android.html">
+            
+                    
+                    Checking Android Devices
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../android/applications.html">
+            
+                <a href="../android/applications.html">
+            
+                    
+                    Review installed Applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../android/root.html">
+            
+                <a href="../android/root.html">
+            
+                    
+                    Check if the Phone is Rooted
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../android/extract.html">
+            
+                <a href="../android/extract.html">
+            
+                    
+                    Extract Data for Further Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../android/stalkerware.html">
+            
+                <a href="../android/stalkerware.html">
+            
+                    
+                    Optional : Check for Indicators of Stalkerware Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../ios.html">
+            
+                <a href="../ios.html">
+            
+                    
+                    Checking iOS Devices
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../ios/icloud.html">
+            
+                <a href="../ios/icloud.html">
+            
+                    
+                    Review iCloud Accounts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../ios/mdm.html">
+            
+                <a href="../ios/mdm.html">
+            
+                    
+                    Check for Mobile Device Management Profiles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../ios/jailbreaks.html">
+            
+                <a href="../ios/jailbreaks.html">
+            
+                    
+                    Check for Jailbreaks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../ios/extract.html">
+            
+                <a href="../ios/extract.html">
+            
+                    
+                    Extract Data for Further Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../remote.html">
+            
+                <a href="../remote.html">
+            
+                    
+                    Checking Devices Remotely
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../remote/mac.html">
+            
+                <a href="../remote/mac.html">
+            
+                    
+                    Mac Computers
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../license-credits.html">
+            
+                <a href="../license-credits.html">
+            
+                    
+                    License and Credits
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Monitor Network Traffic</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="monitor-network-traffic">Monitor Network Traffic</h1>
+<p>Monitoring network traffic from a phone is one of the best way to identify malicious activity without interacting with the mobile phone hence bypassing any mechanism the malware may have developed to bypass detection. But it requires an external tool to record the traffic and some network knowledge to identify suspicious traffic.</p>
+<h2 id="monitor-network-activity-from-a-wifi-router">Monitor Network Activity from a Wifi Router</h2>
+<p>One way to monitor the network traffic from your phone is to record the traffic directly from a WiFi router used by your mobile phone. Depending on your WiFi router, it may be possible to record traffic directly from it (using a tool like <a href="https://www.tcpdump.org/" target="_blank">tcpdump</a>).</p>
+<p>If you cannot record traffic using your actual WiFi router, you can easily build a router using a <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a> and the <a href="https://raspap.com/" target="_blank">RaspAP</a> software (see <a href="https://howtoraspberrypi.com/create-a-wi-fi-hotspot-in-less-than-10-minutes-with-pi-raspberry/" target="_blank">here</a> for a tutorial on how to install it).</p>
+<p>Once your router is installed, you can connect to it using ssh and start capturing the traffic using <a href="https://www.tcpdump.org/" target="_blank">tcpdump</a>. Then connect the mobile phone you want to test to this wifi network and record the traffic for 30 minutes to one hour.</p>
+<p>After the end of the capture, download the pcap file on your computer and review the network traffic using <a href="https://www.wireshark.org/" target="_blank">WireShark</a>. Check especially the following elements :</p>
+<ul>
+<li>Connections to IP addresses without DNS requests</li>
+<li>Connections to domains that are not listed in <a href="https://www.alexa.com/siteinfo" target="_blank">Alexa Top lists</a></li>
+<li>Connections on ports other than 80 and 443</li>
+</ul>
+<p>If you find any suspicious traffic to an IP address or domain, you can use the following tools to get more information on it :</p>
+<ul>
+<li><a href="https://centralops.net/co/" target="_blank">CentralOps</a> allows to see the owner of an IP or the whois of a domain (does not require an account)</li>
+<li><a href="https://community.riskiq.com/home" target="_blank">RiskIQ</a> allows to see the DNS history and has many indications about malicious IPs and domains (requires an account, limited number of queries with a free account)</li>
+<li><a href="https://otx.alienvault.com/" target="_blank">AlienVault OTX</a> is a large database of malicious indicators, you can search for this IP or domain in it to see if there is known malicious activity from it (requires an account, free)</li>
+</ul>
+<h2 id="use-civil-sphere-emergency-vpn">Use Civil Sphere Emergency VPN</h2>
+<p>The <a href="https://www.civilsphereproject.org/what-we-do" target="_blank">Civil Sphere Project</a>, an organisation born from the <a href="https://www.stratosphereips.org/" target="_blank">Stratosphere Research Laboratory</a> at the Czech Technical University in Prague, offers an <a href="https://www.civilsphereproject.org/emergency-vpn" target="_blank">Emergency VPN</a> service to identify compromised devices.</p>
+<p>The Emergency VPN service allows to analyze and identify suspicious traffic from a mobile device used by journalists and NGOs. <a href="https://www.civilsphereproject.org/get-started" target="_blank">On demand</a>, the Civil Sphere team will send you credentials to log-in to their VPN with your phone. While using their VPN, they will record all the traffic coming out of your phone for a maximum of three days. At the end of the recording, they will analyze the traffic using automated and manual techniques in order to identify malicious activity or security issues in the applications running on your phone, and send you the result of this analysis by email.</p>
+<center>
+<img src="../img/emergencyvpn.png" style="max-width:40%">
+</center>
+
+<p>One of the limitation of this technique is that you have to provide network traffic from your mobile phone to a third party organisation (Civil Sphere), you can <a href="https://www.civilsphereproject.org/get-started" target="_blank">contact them</a> to have more information about how this data is stored and used. The advantage of this solution is that you can rely on them to analyze the network traffic, which can be a complex and time-consuming process.</p>
+<p>Check <a href="https://www.civilsphereproject.org/emergency-vpn" target="_blank">their website</a> for more information.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="linkeddevices.html" class="navigation navigation-prev " aria-label="Previous page: Check Devices Linked to Chat Applications">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../android.html" class="navigation navigation-next " aria-label="Next page: Checking Android Devices">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Monitor Network Traffic","level":"1.6.2","depth":2,"next":{"title":"Checking Android Devices","level":"1.7","depth":1,"path":"android.md","ref":"android.md","articles":[{"title":"Review installed Applications","level":"1.7.1","depth":2,"path":"android/applications.md","ref":"android/applications.md","articles":[]},{"title":"Check if the Phone is Rooted","level":"1.7.2","depth":2,"path":"android/root.md","ref":"android/root.md","articles":[]},{"title":"Extract Data for Further Analysis","level":"1.7.3","depth":2,"path":"android/extract.md","ref":"android/extract.md","articles":[]},{"title":"Optional : Check for Indicators of Stalkerware Installation","level":"1.7.4","depth":2,"path":"android/stalkerware.md","ref":"android/stalkerware.md","articles":[]}]},"previous":{"title":"Check Devices Linked to Chat Applications","level":"1.6.1","depth":2,"path":"smartphones/linkeddevices.md","ref":"smartphones/linkeddevices.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"smartphones/network.md","mtime":"2020-01-13T19:36:46.449Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-28T15:31:36.758Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

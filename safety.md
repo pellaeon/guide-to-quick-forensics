@@ -1,22 +1,24 @@
-# Safety
+# Segurança
 
-**Safety of the owner of the device is paramount.**
+**A segurança da proprietária do dispositivo é fundamental**.
 
-Before even beginning the engagement, it is important we considered possible negative consequences for the device owner's safety. Firstly, we need to properly assess the risk the owner of the device is currently exposed to. Secondly, we need to determine whether the assistance we are going to provide could cause further exposure. Despite the best intentions, and the owner's likely desire to be reassured and feel comfortable using their devices free of spyware, **the activities we are about to perform could, for example, cause retaliation or expedite a response on the attacker's part.** We need to be prepared for such eventuality: in some cases, it might be even more prudent to not continue with the engagement at all if it would be too risky.
+Antes mesmo de iniciar o engajamento, é importante considerarmos as possíveis consequências negativas para a segurança da proprietária do dispositivo. Em primeiro lugar, precisamos avaliar adequadamente o risco ao qual ela está exposta no momento. Em segundo lugar, precisamos determinar se a assistência que vamos prestar pode causar mais exposição. Apesar das melhores intenções e do provável desejo da proprietária de se tranquilizar e se sentir confortável ao usar seus dispositivos sem _spyware_, **as atividades que estamos prestes a realizar podem, por exemplo, causar retaliação ou acelerar uma resposta por parte do invasor**. Precisamos estar preparados para essa eventualidade: em alguns casos, pode ser ainda mais prudente não continuar com o compromisso se for muito arriscado.
 
-In order to help you estimate the level of risk faced by the owner of the device, and to prepare an appropriate action plan, following are some questions you should try to answer in advance:
+Para ajudar você a estimar o nível de risco enfrentado pela proprietária do dispositivo e a preparar um plano de ação adequado, **seguem algumas perguntas importantes que você deve tentar responder com antecedência**:
 
-1. Is it safe for the owner to bring the device to you? If the device is monitored, would any location tracking further jeopardize the owner?
-2. If you find an infection, you almost always would not want to let the owner continue using the device. Do you have a plan for replacement? Attackers might notice that the victim has suddenly disappeared.
-3. If the device is replaced, would the attacker losing access to the victim cause further retaliation?
-4. Is the owner in immediate danger? If we wrongly determine that the device is clean, how could this negatively affect the owner?
+1. É seguro para a proprietária trazer o dispositivo até você? Se o dispositivo for monitorado, qualquer rastreamento de localização colocaria a proprietária ainda mais em risco?
+2. Se você encontrar uma infecção, quase sempre não permitirá que a proprietária continue usando o dispositivo. Você tem um plano de substituição? Os invasores podem perceber que a vítima desapareceu repentinamente.
+3. Se o dispositivo for substituído, o fato de o atacante perder o acesso à vítima causaria mais retaliações?
+4. A proprietária está correndo perigo imediato? Se determinarmos erroneamente que o dispositivo está limpo, como isso poderia afetar negativamente a proprietária?
 
-Answering these questions will hopefully help you decide if and how to proceed with the quick forensics of the devices.
+Esperamos que a resposta a essas perguntas te ajude a decidir como proceder com a análise forense rápida dos dispositivos.
 
-## The device should not connect online
+## O dispositivo deve se conectar on-line?
 
-If you decide to proceed with the inspection, you most likely also want to plan to have the device to be completely disconnected from any WiFi or mobile Internet connection.
+Se decidir prosseguir com a inspeção, é provável que também queira planejar que o dispositivo seja completamente desconectado de qualquer conexão Wi-Fi ou de Internet móvel.
 
-Make sure to not let the device connect online. In the case of a Windows laptop, ideally you should ask the owner to disable the WiFi before turning it off and bringing the device to you. Either way, make sure no connection is available before starting.
-Keep your tools on an external USB drive. Limit transfer of files, and clean leftovers once you are done.
-Bear in mind, even with all these precautions, if the triaging is mistakenly concluded with nothing found and the owner resumes using it, it is still quite likely the attacker will notice. A trojan might take screenshots of the desktop while you are operating, or even record the audio from the microphone. In case something is found, you do not want to let it send such data to the attacker.
+No caso de um laptop, o ideal é pedir à proprietária para desativar o Wi-Fi antes de desligá-lo e trazer o dispositivo até você. De qualquer forma, certifique-se de que nenhuma conexão esteja disponível antes de começar. No caso de um telefone celular, talvez seja melhor pedir à proprietária que desligue o dispositivo e remova o cartão SIM antes de levá-lo até você.
+
+Mantenha suas ferramentas em uma unidade USB externa. Limite a transferência de arquivos e limpe as sobras quando terminar.
+
+Lembre-se de que, mesmo com todas essas precauções, se a triagem for erroneamente concluída sem que nada seja encontrado e a proprietária voltar a usá-lo, é bem provável que o invasor perceba. Um vírus cavalo de Troia pode fazer capturas de tela da área de trabalho enquanto você estiver operando ou até mesmo gravar o áudio do microfone. Caso algo seja encontrado, você não deve permitir que ele envie esses dados para o invasor.

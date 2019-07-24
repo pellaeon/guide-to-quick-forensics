@@ -1,9 +1,9 @@
-# A note on Trust
+# Confiança
 
-When asking you to check it, **the owner of the device is trusting you with likely the most intimate possession they have**. Be mindful of that.
+Ao pedir que você verifique um dispositivo, **a proprietária dele está confiando a você, provavelmente, o objeto mais íntimo que possui.** Tenha isso em mente.
 
-For example, when checking phones it might be inevitable to have to go through SMS and WhatsApp messages to find potential malicious ones. When checking through computers, you might come across documents and personal pictures. In some cases, **going through such data stored on their devices might resurrect traumatic experiences**. Be mindful of that too.
+Ao verificar telefones, por exemplo, pode ser inevitável examinar mensagens SMS e de WhatsApp para encontrar possíveis mensagens maliciosas. Ao verificar os computadores, você pode se deparar com documentos e fotos pessoais. Em alguns casos, **analisar esses dados armazenados pode ressuscitar experiências traumáticas**. Esteja atenta a isso também.
 
-In some cases you might need the owner of the device to enter their password, such as for example when checking Mac computers, or entering the PIN code to unlock their phone. Obviously, avoid watching over as passwords are being entered.
+Em alguns casos, talvez seja necessário que a proprietária do dispositivo digite a senha, como, por exemplo, ao verificar computadores Mac ou ao digitar o código PIN para desbloquear o telefone. Obviamente, evite ficar observando enquanto as senhas estão sendo digitadas.
 
-Make sure you comfort the owner, explain them exactly what you are going to do, ask for their consent, and offer to interrupt at any time.
+Certifique-se de tranquilizar a proprietária, explicar-lhe exatamente o que você fará, pedir seu consentimento e disponibilizar-se para interromper o procedimento a qualquer momento.

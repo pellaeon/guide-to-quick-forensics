@@ -1,9 +1,14 @@
-# General Approach
+# Abordagem geral
+Não existe um livro de regras sobre como verificar se um dispositivo está infectado ou não. A capacidade de descobrir a presença de um malware depende de muitas variáveis.
 
-There is no rulebook on how to verify if a device is infected or not. The ability to discover the presence of a malware depends on many variables.
-It is all about practice and training your eye. After a while, you will naturally notice things that stand out from the normal. Spot what shouldn’t be there.
-In our general approach we rely on some assumptions:
-If the system is clean, there shouldn’t be any applications or system processes running that we do not recognize.
-If the system is clean, there shouldn’t be any applications registered for automatic launch that we do not recognize.
-If the system is clean, there shouldn’t be abnormal modifications to the system itself.
-Regardless of the OS, we essentially look for anomalies under all these assumptions.
+Tudo se resume à prática e ao treinamento de seu olho. Depois de algum tempo, você naturalmente perceberá coisas que se destacam do normal.Identifique o que não deveria estar lá.
+
+Em nossa abordagem geral, contamos com algumas suposições:
+
+Se o sistema estiver limpo, não deverá haver nenhum aplicativo ou processo do sistema em execução que não reconheçamos.
+
+Se o sistema estiver limpo, não deverá haver nenhum aplicativo registrado para inicialização automática que não reconheçamos.
+
+Se o sistema estiver limpo, não deverá haver modificações anormais no próprio sistema.
+
+Independentemente do sistema operacional, basicamente procuramos anomalias sob todas essas premissas.
