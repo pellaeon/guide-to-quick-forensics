@@ -24,6 +24,7 @@
   * [Monitor Network Traffic](smartphones/network.md)
 * [Checking Android Devices](android.md)
   * [Review installed Applications](android/applications.md)
+  * [Get Information about Installed Applications](android/get-information-about-installed-applications.md)
   * [Check if the Phone is Rooted](android/root.md)
   * [Extract Data for Further Analysis](android/extract.md)
   * [Optional : Check for Indicators of Stalkerware Installation](android/stalkerware.md)
