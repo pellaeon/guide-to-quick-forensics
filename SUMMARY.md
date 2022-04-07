@@ -1,7 +1,8 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Preparations](preparations.md)
+  * [Knowledge](preparations/knowledge.md)
   * [Safety](safety.md)
   * [Trust](trust.md)
   * [Backup](backup.md)
