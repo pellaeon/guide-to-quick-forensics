@@ -19,6 +19,7 @@
   * [Review Network Connections](mac/network.md)
   * [Extract Data for Further Analysis](mac/extract.md)
 * [Checking Smartphones](smartphones.md)
+  * [Smartphone System Architecture](smartphones/smartphone-system-architecture.md)
   * [Check Devices Linked to Chat Applications](smartphones/linkeddevices.md)
   * [Monitor Network Traffic](smartphones/network.md)
 * [Checking Android Devices](android.md)
