@@ -1,6 +1,12 @@
-# Review installed Applications
+# Review Applications
 
-Some malicious applications are presented as legitimate applications, often being a copy of a legitimate application with malicious code added to them. In that case, they still need an important number of Android permissions to be able to monitor your phone remotely, so a first step is to check the list of applications installed and their permissions.
+## Application ID
+
+Some malicious applications are presented as legitimate applications, often being a copy of a legitimate application with malicious code added to them.
+
+## Permissions
+
+&#x20;In that case, they still need an important number of Android permissions to be able to monitor your phone remotely, so a first step is to check the list of applications installed and their permissions.
 
 To do that, visit **Settings > Applications**
 
@@ -20,8 +26,11 @@ The following permissions are specifically suspicious as they are very regularly
 
 ![](../img/android\_apps2.png)
 
-It is also interesting to check other paremeters about this app, that may or may not be displayed depending on your version of Android :
+It is also interesting to check other parameters about this app, that may or may not be displayed depending on your version of Android :
 
 * Check if the app was installed from the Google Play store : see **App details** or **App details in store**
 * Check if the app can modify system settings : see **Modify system settings** or **Change system settings**
 * Check if the app is allowed to install other applications : see **Install unknown apps**
+
+## Running Applications
+

@@ -15,4 +15,14 @@ Smartphones are basically small handheld computers, the major architectural dist
 Co-processors are processors used only for a particular purpose other than the system. The co-processors helps the main _application processor_ to handle certain tasks, thus have to communicate with it. Co-processors often run their own embedded operating system and application and could not be directly controlled by the user. Co-processors often has privileged access to system resources and user data, so they are sometimes targets of more sophisticated exploitations. Due to the locked-down nature, it is difficult to audit or obtain forensic data from co-processors. For the purpose of this guide, you will only need to know that:
 
 * Co-processors can be exploited
-* Co-processor exploits are sophiscated and uncommon
+* Co-processor exploits are sophisticated and uncommon
+
+The rest of this guide will thus focus on the softwares running on the application processor.
+
+### Operating System
+
+Same with traditional computers,&#x20;
+
+### System Applications
+
+### User Applications

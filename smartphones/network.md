@@ -1,10 +1,23 @@
 # Monitor Network Traffic
 
-&#x20;queryideaMonitoring network traffic from a phone is one of the best way to identify malicious activity without interacting with the mobile phone hence bypassing any mechanism the malware may have developed to bypass detection. But it requires an external tool to record the traffic and some network knowledge to identify suspicious traffic.
+Monitoring network traffic from a phone is one of the best way to identify malicious activity without interacting with the mobile phone hence bypassing any mechanism the malware may have developed to bypass detection. But it requires an external tool to record the traffic and some network knowledge to identify suspicious traffic.
 
 ### Limitations
 
 Many mobile apps and malware now enable "SSL Pinning", which makes it hard for us to decrypt their traffic. The only way to bypass SSL Pinning is to root/jailbreak the device and use tools such as Frida. However, for the goal of forensics, we only need to do this if we highly suspect that malicious traffic is hidden with SSL-pinned encryption.
+
+## Monitor DNS Queries
+
+Instead of monitoring full network traffic, which requires a complex setup, we can jiust monitor the DNS queries. Most operating systems allow users to configure their own DNS servers. We can configure our own DNS server to log queries and point the device under test to our server.
+
+We can deploy our own DNS server with:
+
+* Pi-hole
+* Adguard Home
+
+Or, use a cloud-based DNS server like NextDNS. The downside of cloud-based DNS servers are that the cloud provider will be able to see the devices' queries.
+
+One cloud DNS provider is NextDNS, which allows you to configure a DNS server without an account. NextDNS also provides apps for major operating systems to configure the device to use your custom server. Once you entered the _Configuration ID_ in NextDNS app,&#x20;
 
 ## Monitor Full Network Traffic from a Wifi Router
 
@@ -28,7 +41,15 @@ If you find any suspicious traffic to an IP address or domain, you can use the f
 
 To set up an environment for traffic analysis, refer to [this guide](https://mobile-security.gitbook.io/mobile-security-testing-guide/general-mobile-app-testing-guide/0x04f-testing-network-communication).
 
-## How to look for malicious traffic?
+## Monitor Network Traffic with On-device Apps
+
+These apps usually works by creating an on-device VPN server and configuring the system to use the VPN server.
+
+* [NetGuard](https://netguard.me): for Android, open source
+* [Lockdown](https://lockdownprivacy.com/firewall): for iOS, open source
+* [Blokada](https://apps.apple.com/us/app/blokada/id1508341781): for iOS, proprietary
+
+## How to Look for Suspicious Traffic?
 
 Some basic&#x20;
 
