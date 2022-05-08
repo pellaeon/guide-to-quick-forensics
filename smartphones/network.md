@@ -17,7 +17,9 @@ We can deploy our own DNS server with:
 
 Or, use a cloud-based DNS server like NextDNS. The downside of cloud-based DNS servers are that the cloud provider will be able to see the devices' queries.
 
-One cloud DNS provider is NextDNS, which allows you to configure a DNS server without an account. NextDNS also provides apps for major operating systems to configure the device to use your custom server. Once you entered the _Configuration ID_ in NextDNS app,&#x20;
+One cloud DNS provider is NextDNS, which allows you to configure a DNS server without an account. NextDNS also provides apps for major operating systems to configure the device to use your custom server. First, go to [https://my.nextdns.io/start](https://my.nextdns.io/start), which will create a temporary _Configuration ID,_ which you should enter into the NextDNS app. Then, all the DNS queries that the phone is making will be logged in the _Logs_ tab.
+
+![](../.gitbook/assets/Screenshot\_20220506\_165152.png)
 
 ## Monitor Full Network Traffic from a Wifi Router
 
@@ -51,7 +53,13 @@ These apps usually works by creating an on-device VPN server and configuring the
 
 ## How to Look for Suspicious Traffic?
 
-Some basic&#x20;
+The following behaviors are more suspicious:
+
+* Apps or connections that generate a lot of data traffic.
+* Apps or connections that upload more data than download.
+* Strange domain names. When encountered, simply google them.
+* Uncommon ports.
+* Sending or receiving data when the user is not using the phone. (Such as when they're sleeping.)
 
 ## Use Civil Sphere Emergency VPN
 

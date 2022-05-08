@@ -1,4 +1,9 @@
-# Analyze Applications (Basic)
+# Analyze Applications
+
+## Extract Application Bundles (APKs)
+
+* [Apk Extractor](https://play.google.com/store/apps/details?id=com.ext.ui\&hl=zh\_TW)
+* [Apk Extractor (open source)](https://f-droid.org/packages/axp.tool.apkextractor/)
 
 ## [Exodus Privacy](https://reports.exodus-privacy.eu.org/en/)
 

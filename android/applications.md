@@ -1,12 +1,16 @@
-# Review Applications
+# Review Installed Applications
 
 ## Application ID
 
-Some malicious applications are presented as legitimate applications, often being a copy of a legitimate application with malicious code added to them.
+Some malicious applications are presented as legitimate applications, often being a copy of a legitimate application with malicious code added to them. Go to **Settings > Applications**, and click on each application to check its ID at the page bottom.
+
+![](../.gitbook/assets/Screenshot\_20220506-170511\_Settings.png)
+
+The application ID should reflect the app's displayed name, for example, the authentic "Play Store" app's ID is `com.android.vending`, however, there are also [malwares](https://www.tomsguide.com/news/octo-android-malware-can-take-over-your-phone-how-to-protect-yourself) pretending to be the Play Store with ID `com.restthe71`.&#x20;
 
 ## Permissions
 
-&#x20;In that case, they still need an important number of Android permissions to be able to monitor your phone remotely, so a first step is to check the list of applications installed and their permissions.
+Even if fake applications were installed, they still need an important number of Android permissions to be able to monitor your phone remotely, so a first step is to check the list of applications installed and their permissions.
 
 To do that, visit **Settings > Applications**
 

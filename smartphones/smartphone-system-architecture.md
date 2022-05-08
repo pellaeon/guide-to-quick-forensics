@@ -21,8 +21,16 @@ The rest of this guide will thus focus on the softwares running on the applicati
 
 ### Operating System
 
-Same with traditional computers,&#x20;
+Smartphone operating systems differ from computer operating systems in that they implement more controls and isolation between different system components and applications, so that a compromised component could not easily affect the whole system.
+
+![](https://developer.android.com/guide/platform/images/android-stack\_2x.png)
+
+It is possible for attackers to exploit kernel vulnerabilities, however these vulnerabilities are quite rare and usually requires sophisticated techniques to exploit.
 
 ### System Applications
 
+System applications may contain vulnerabilities. Once exploited, they can cause greater harm than exploiting user applications, because they usually have more privilege to change the underlying system. One common example is the built-in browser, which is often exploited.
+
 ### User Applications
+
+User applications are least privileged. However, if the permissions are granted, they can access sensitive user information, so they can still cause great harm. They can also sometimes trick or exploit the underlying system to gain more control.
