@@ -44,7 +44,3 @@ Check unknown running apps by googling their names.
 
 Disable Developer Options after inspecting running apps to prevent leaking information.
 
-## Search Storage for APK Files
-
-Sometimes users are tricked into downloading and installing APK files and the APK files were left in phone storage. By searching for APK files, we might find APK files that were installed in the past.
-

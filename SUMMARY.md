@@ -25,6 +25,7 @@
   * [Monitor Network Traffic](smartphones/network.md)
 * [Checking Android Devices](android.md)
   * [Review Installed Applications](android/applications.md)
+  * [Check Storage](android/check-storage.md)
   * [Check if the Phone is under Android Device Policy](android/check-if-the-phone-is-under-android-device-policy.md)
   * [Check if the Phone is Rooted](android/root.md)
   * [Analyze Applications](android/analyze-applications.md)
