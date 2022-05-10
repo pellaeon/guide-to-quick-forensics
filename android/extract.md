@@ -6,6 +6,11 @@ description: This page might be obsolete.
 
 To extract data for analysis, you can use [Snoopdroid](https://github.com/botherder/snoopdroid) developed by Claudio Guarnieri. This tool allows to extract the list of android applications installed on the phone, and check on [VirusTotal](https://www.virustotal.com) and [Koodous](https://koodous.com) if they are known to be malicious.
 
+## Backup to Computer
+
+* Using vendor apps such as Samsung's [Smart Switch](https://www.samsung.com/us/support/answer/ANS00048603/).
+* Using generic apps such as [https://github.com/mrrfv/linux-android-backup](https://github.com/mrrfv/linux-android-backup)
+
 ## MVT
 
 {% embed url="https://nex.sx/tech/2022/01/28/a-primer-on-android-forensics.html" %}
