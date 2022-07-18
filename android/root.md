@@ -16,7 +16,7 @@ In the rooting process, important system security features are disabled (such as
 
 ## Look for Root-Related Applications
 
-When a phone is rooted, the process often involves installing an application to manage root access, most of the time [Magisk](https://github.com/topjohnwu/Magisk) (or [SuperSU](http://www.supersu.com) on old versions of Android). One first step is to check if the Magisk application is installed. You can check directly for the icon in your main menu, or go to **Settings > Applications** and search the application.
+When a phone is rooted, the process often involves installing an application to manage root access, most of the time [Magisk](https://github.com/topjohnwu/Magisk) (or [SuperSU](http://www.supersu.com/) on old versions of Android). One first step is to check if the Magisk application is installed. You can check directly for the icon in your main menu, or go to **Settings > Applications** and search the application.
 
 ![](../img/supersu.png)
 

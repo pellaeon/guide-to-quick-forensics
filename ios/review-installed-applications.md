@@ -14,4 +14,4 @@ Check enterprise apps by going to **Settings > General > Profiles or Profiles & 
 
 ## Sideloaded Apps
 
-It is possible to use iOS's personal developer certificate to sign unverified apps so that they could be installed. Tools such as [Sideloadly](https://sideloadly.io), [Azule](https://github.com/Al4ise/Azule), and [Altstore](https://altstore.io) makes this process easier. To check for sideloaded apps, go to **Settings > General > Profiles or Profiles & Device Management.**
+It is possible to use iOS's personal developer certificate to sign unverified apps so that they could be installed. Tools such as [Sideloadly](https://sideloadly.io/), [Azule](https://github.com/Al4ise/Azule), and [Altstore](https://altstore.io/) makes this process easier. To check for sideloaded apps, go to **Settings > General > Profiles or Profiles & Device Management.**

@@ -9,6 +9,8 @@ Some apps automatically check the apps installed on the system (to see if they a
 
 These scanner apps work by extracting and uploading the APKs to their own platform. Some device information and potentially other personal information might be uploaded as well, one should check the platforms' privacy policy before installing and scanning with those apps.
 
+Alternatively, there is an open-source antivirus application [Hypatia](https://github.com/Divested-Mobile/Hypatia), which utilizes signature databases from ClamAV, ESET and the [targeted threats list made by brotherder](https://github.com/botherder/targetedthreats).
+
 ## Extract Application Bundles (APKs)
 
 Some tools require you to extract the APK files manually and upload them. Below are some tools that can extract APKs.

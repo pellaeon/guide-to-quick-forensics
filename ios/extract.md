@@ -7,7 +7,7 @@
 
 ## libimobiledevice
 
-[libimobiledevice](http://www.libimobiledevice.org) is a cross-platform software library that allows to interact with iOS devices. It can be used to perform a backup of the iPhone data, which may provide interesting data for a forensic analysis.
+[libimobiledevice](http://www.libimobiledevice.org/) is a cross-platform software library that allows to interact with iOS devices. It can be used to perform a backup of the iPhone data, which may provide interesting data for a forensic analysis.
 
 **Unlike other solutions presented in this guide, this backup will extract all the user data from the different applications and thus contains a lot of private information from the user (photos, messages etc.). Be mindful of what you do with it, and make sure the device owner consent to this extraction and to what is done with the data.**
 
@@ -15,7 +15,7 @@
 
 libimobiledevice has packages for OpenSUSE, Fedora, Debian and Ubuntu Linux distributions, just do **apt install libimobiledevice** (or equivalent package manager).
 
-On MAC OS, the easiest way is to install the [HomeBrew package manager](https://brew.sh), and then install libimobiledevice with it with **brew install ideviceinstaller**
+On MAC OS, the easiest way is to install the [HomeBrew package manager](https://brew.sh/), and then install libimobiledevice with it with **brew install ideviceinstaller**
 
 There is currently no easy way to install libimobiledevice on Windows, you will have to [manually compile it on your system](https://github.com/libimobiledevice/libimobiledevice/issues/582).
 

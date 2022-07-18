@@ -25,4 +25,4 @@ Using KDE
 
 ## Configure Redirection to Intercepting Proxy
 
-TODO
+For mobile forensics, it is usually not necessary to intercept SSL traffic, because to intercept SSL traffic one would typically have to configure a self-signed SSL certificate authority (CA) for the mobile device, however most apps would not trust user-imported SSL CA. To make apps trust the self-signed CA would require rooting the Android device, which is not recommended because when conducting forensics one should not alter the subject device.

@@ -1,13 +1,13 @@
 # Extract Data for Further Analysis
 
-To extract data for analysis, you can use [androidqf](https://github.com/botherder/androidqf) developed by Claudio Guarnieri. This tool allows to extract the list of android applications installed on the phone, and check on [VirusTotal](https://www.virustotal.com/) and [Koodous](https://koodous.com/) if they are known to be malicious.
+In this section we introduce a few tools that collects device information or backups that could be sent to experts for analysis.
 
 ## Backup to Computer
 
 * Using vendor apps such as Samsung's [Smart Switch](https://www.samsung.com/us/support/answer/ANS00048603/).
 * Using generic apps such as [https://github.com/mrrfv/linux-android-backup](https://github.com/mrrfv/linux-android-backup)
 
-## Set-up ADB USB Debugging
+## \[obsolete] Note: Set-up ADB USB Debugging
 
 To use Snoopdroid, you need to enable USB debugging in the developers options. Here are the instructions to do so from the [official Android documentation](https://developer.android.com/studio/debug/dev-options#enable) :
 
@@ -35,4 +35,4 @@ You can test that the access is working by running `adb shell`, the phone will t
 
 ## [androidqf](https://github.com/botherder/androidqf)
 
-Follow the official instructions.
+androidqf is an easy-to-use desktop application that collects system and app information and outputs them into a files that could be sent to experts for further analysis. Follow the official instructions to operate.

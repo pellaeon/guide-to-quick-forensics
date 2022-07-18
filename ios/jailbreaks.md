@@ -8,7 +8,7 @@ Because regular users typically would not (and should not) install jailbreaks on
 
 ## Look for any jailbreak-related applications icons
 
-During the process of jailbreaking the phone, several applications are often installed, either to jailbreak the phone (like [checkra1n](https://checkra.in), [unc0ver](https://github.com/pwn20wndstuff/Undecimus) or [Chimera](https://chimera.sh)) or to install applications (such as [Cydia](https://cydia.saurik.com) or [Sileo](https://getsileo.app)). A first step to identify a jailbroken iPhone is to check for one of these apps on the phone :
+During the process of jailbreaking the phone, several applications are often installed, either to jailbreak the phone (like [checkra1n](https://checkra.in/), [unc0ver](https://github.com/pwn20wndstuff/Undecimus) or [Chimera](https://chimera.sh/)) or to install applications (such as [Cydia](https://cydia.saurik.com/) or [Sileo](https://getsileo.app/)). A first step to identify a jailbroken iPhone is to check for one of these apps on the phone :
 
 | App      | Logo                         |
 | -------- | ---------------------------- |
@@ -24,7 +24,7 @@ Many jailbreak tools install a ssh server by default during the operation. It is
 
 To do that, you first need to get the iPhone IP address, go Settings > Wifi > Your network, and get the value in the "IP Address" field (something like 192.168.0.1).
 
-From another computer on the same network, you need to use a port scanner such as [nmap](https://nmap.org) and scan the ports on the iPhone with it. For instance with nmap through command-line :
+From another computer on the same network, you need to use a port scanner such as [nmap](https://nmap.org/) and scan the ports on the iPhone with it. For instance with nmap through command-line :
 
 ```
 # nmap 192.168.186.196
