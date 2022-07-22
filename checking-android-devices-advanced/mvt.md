@@ -4,7 +4,15 @@
 
 On Android, MVT works mainly by collecting system information using [ADB](https://developer.android.com/studio/command-line/adb).
 
-## Running
+## Install
+
+```
+pip3 install mvt
+```
+
+
+
+## Running Check
 
 `mvt-android check-adb --output <directory>`
 
