@@ -46,4 +46,5 @@
   * [Analyzing Extracted Data](ios/analyzing-extracted-data.md)
 * [Checking Devices Remotely](remote.md)
   * [Mac Computers](remote/mac.md)
+  * [Android](remote/android.md)
 * [License and Credits](license-credits.md)

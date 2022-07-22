@@ -10,8 +10,6 @@ On Android, MVT works mainly by collecting system information using [ADB](https:
 pip3 install mvt
 ```
 
-
-
 ## Running Check
 
 `mvt-android check-adb --output <directory>`
@@ -74,6 +72,12 @@ When encountering a suspicious app, check the file path and hash in `packages.js
 ```
 
 Search the package name or file hash on VirusTotal or Koodous platform and read the analysis.
+
+### packages.json
+
+As [noted](https://nex.sx/tech/2022/01/28/a-primer-on-android-forensics.html) by MVT's developer:
+
+> Walking through this `packages.json` file is an important first step. Prioritize looking at non-system and third-party apps. Look out for any that were disabled (for example, a commercial security app marked as disabled might be a red flag). Search online for package names and hashes of those apps that do not look familiar, have odd names, or might show an unusual _installer_.
 
 ### files/
 

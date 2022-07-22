@@ -2,7 +2,13 @@
 
 In this section we introduce a few tools that collects device information or backups that could be sent to experts for analysis.
 
-## Backup to Computer
+## [androidqf](https://github.com/botherder/androidqf) - Android Quick Forensics
+
+androidqf is an easy-to-use desktop application that collects system and app information and outputs them into a files that could be sent to experts for further analysis. Follow the official instructions to operate.
+
+## Alternatives
+
+Alternative ways to generate device backups. Backups generated using these tools contain less useful information, so should be used only in case when androidqf isn't usable.
 
 * Using vendor apps such as Samsung's [Smart Switch](https://www.samsung.com/us/support/answer/ANS00048603/).
 * Using generic apps such as [https://github.com/mrrfv/linux-android-backup](https://github.com/mrrfv/linux-android-backup)
@@ -32,7 +38,3 @@ RF2F722NU0C	device
 ```
 
 You can test that the access is working by running `adb shell`, the phone will then ask you to confirm that the device is allowed to debug the phone.
-
-## [androidqf](https://github.com/botherder/androidqf)
-
-androidqf is an easy-to-use desktop application that collects system and app information and outputs them into a files that could be sent to experts for further analysis. Follow the official instructions to operate.
