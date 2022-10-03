@@ -34,18 +34,3 @@ System applications may contain vulnerabilities. Once exploited, they can cause 
 ### User Applications
 
 User applications are least privileged. However, if the permissions are granted, they can access sensitive user information, so they can still cause great harm. They can also sometimes trick or exploit the underlying system to gain more control.
-
-### Sandbox
-
-Sandboxing is an important Operating System feature on smartphones (and computers too, but to a lesser degree). Instead of allowing an user application to talk to any other applications or use any system/hardware resources by default, a _sandboxed_ app (or system component) is **by default denied access to resources and outside communication**. Sandboxed components could not affect other parts of the system. A sandboxed component is like a machine that is fully enclosed in a safe.
-
-However, programs do sometimes need system resources to properly function. For instance, a voice recorder app needs read access to the microphone in order to do its job. Thus, different "holes" needs to be punched on the safe in order to allow communication to the outside world. The "holes" represent the legitimate channels of interaction allowed by the sandbox. The permission system on iOS and Android can be seen as high-level abstractions of the holes. When the user gives permission to an app, the system essentially opens a hole on the app's enclosing safe.
-
-The sandbox is usually imposed on user applications and some system components that is in direct contact with user applications or can process untrusted input. The sandbox is enforced by a combination of low-level kernel functionalities. When user applications tries to access forbidden resources, one of the following few things can happen:
-
-* System prompts the user to decide whether to allow access, such as files, camera, microphone.
-* System denies the application, the application receives an error.
-* System determines that some resource really shouldn't be accessed by any user application, and if the application is accessing those resources, it is probably for some nefarious purpose, thus kills (forcibly stop executing) the application.
-* System determines that some resource really shouldn't be accessed by any user application, and the fact that this resource is now being accessed means something nefarious might already be happening, thus it is best to stop the system entirely and reboot, technically referred to as a _kernel panic_.
-
-If the sandbox leaves an unintional hole or a hole can be cracked open by the application, this amounts to a vulnerability. System vendors put in a lot of effort prevent this kind of "sandbox escape" vulnerabilities. Sandbox escape vulnerabilities are rare these days and require highly technical skills to find one.
