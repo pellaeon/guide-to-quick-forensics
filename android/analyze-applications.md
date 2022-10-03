@@ -18,8 +18,6 @@ Some tools require you to extract the APK files manually and upload them. Below 
 * [Apk Extractor](https://play.google.com/store/apps/details?id=com.ext.ui\&hl=zh\_TW)
 * [Apk Extractor (open source)](https://f-droid.org/packages/axp.tool.apkextractor/)
 
-Once an APK is extracted, one can also calculate its file hash (MD5 or SHA), and search for the hash using sites like VirusTotal.com .
-
 ## Online tools
 
 ### [Exodus Privacy](https://reports.exodus-privacy.eu.org/en/)

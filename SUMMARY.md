@@ -45,6 +45,7 @@
   * [Check for Jailbreaks](ios/jailbreaks.md)
   * [Extract Data for Further Analysis](ios/extract.md)
   * [Analyzing Extracted Data](ios/analyzing-extracted-data.md)
+  * [About Lockdown Mode](ios/lockdown-mode.md)
 * [Checking Devices Remotely](remote.md)
   * [Mac Computers](remote/mac.md)
   * [Android](remote/android.md)

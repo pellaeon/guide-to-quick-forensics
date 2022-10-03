@@ -1,0 +1,3 @@
+# About Lockdown Mode
+
+iOS 16 introduced [_Lockdown Mode_](https://support.apple.com/en-us/HT212650), which disables a significant amount of features to remove the possibility of malwares exploiting them. Apple's documentation is unclear on what exactly (in technical terms) are the features disabled. Although the Lockdown Mode probably would not interfere with the basic forensics process, it might interfere with the advanced forensics process (using MVT). If MVT returns an error, disable Lockdown Mode (and maybe enable airplane mode at the same time to avoid new malware infections) when MVT is running, and turn it back on.
