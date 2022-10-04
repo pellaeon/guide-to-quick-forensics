@@ -18,6 +18,8 @@ Some tools require you to extract the APK files manually and upload them. Below 
 * [Apk Extractor](https://play.google.com/store/apps/details?id=com.ext.ui\&hl=zh\_TW)
 * [Apk Extractor (open source)](https://f-droid.org/packages/axp.tool.apkextractor/)
 
+Once an APK is extracted, one can also calculate its file hash (MD5 or SHA), and search for the hash using sites like VirusTotal.com .
+
 ## Online tools
 
 ### [Exodus Privacy](https://reports.exodus-privacy.eu.org/en/)
@@ -43,4 +45,8 @@ There are also other online analysis tools. The ones listed below are not specia
 * [https://cuckoo.cert.ee/](https://cuckoo.cert.ee/)
 * [https://app.any.run/](https://app.any.run/)
 * [https://www.virustotal.com/](https://www.virustotal.com/)
+
+## Interpreting Analysis Results
+
+The tools will produce a lot of technical information about the app, interpreting them would require technical understanding of how mobile apps work (such as: what are _content providers, services, activity_). However partial analysis could be achieved by simply checking if the files, URLs, IP addresses contained in the app is already known to be malicious.
 

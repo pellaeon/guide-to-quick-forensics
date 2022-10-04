@@ -8,7 +8,7 @@ androidqf is an easy-to-use desktop application that collects system and app inf
 
 ## Alternatives
 
-Alternative ways to generate device backups. Backups generated using these tools contain less useful information, so should be used only in case when androidqf isn't usable.
+Alternative ways to generate device backups. Backups g enerated using these tools contain less useful information, so should be used only in case when androidqf isn't usable.
 
 * Using vendor apps such as Samsung's [Smart Switch](https://www.samsung.com/us/support/answer/ANS00048603/).
 * Using generic apps such as [https://github.com/mrrfv/linux-android-backup](https://github.com/mrrfv/linux-android-backup)
