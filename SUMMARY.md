@@ -49,4 +49,5 @@
 * [Checking Devices Remotely](remote.md)
   * [Mac Computers](remote/mac.md)
   * [Android](remote/android.md)
+* [Concluding a Forensic Gathering](concluding-a-forensic-gathering.md)
 * [License and Credits](license-credits.md)

@@ -1,10 +1,15 @@
 # Check Storage
 
-## Search Storage for APK Files
+Instead of checking every file on the storage, there are a few shortcuts to check for suspicious files:
+
+1. Download history of the user-preferred browser
+2. "Recently used" section in the file manager
+
+## Search for APK Files
 
 Sometimes users are tricked into downloading and installing APK files and the APK files were left in phone storage. By searching for APK files, we might find APK files that were installed in the past.
 
-## Search Storage for Suspicious Files
+## Search for Suspicious Files
 
 Less sophisticated malware might leave a trace on the phone by writing files in the internal storage (or SD card).
 

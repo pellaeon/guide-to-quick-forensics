@@ -17,3 +17,8 @@ Links could be sent from any instant messaging apps or SMS. There are a few kind
 
 1. Copy the entire message including the link to clipboard
 2. Alternatively, save a screenshot containing the full text
+3. If you can, archive the link using the [Wayback Machine](https://web.archive.org/)
+
+### Checking links
+
+Simply Google search the link, or paste the link to sites like VirusTotal.
