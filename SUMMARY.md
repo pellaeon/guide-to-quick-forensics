@@ -43,6 +43,7 @@
   * [Check for Mobile Device Management Profiles](ios/mdm.md)
   * [Check for Shortcuts](ios/check-for-shortcuts.md)
   * [Check for Jailbreaks](ios/jailbreaks.md)
+  * [Enable and Check App Privacy Report](ios/enable-and-check-app-privacy-report.md)
   * [Extract Data for Further Analysis](ios/extract.md)
   * [Analyzing Extracted Data](ios/analyzing-extracted-data.md)
   * [About Lockdown Mode](ios/lockdown-mode.md)
