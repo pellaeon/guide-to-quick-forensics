@@ -14,7 +14,7 @@ Once launched, you need to press the `Start Scan` button. KnockKnock will then s
 
 ## Analyzing Results
 
-KnockKnock does not automatically determine which programs are malicious or not. As with the rest of this [methodology](methodology.md), it is necessary for you to eventually become familiar enough with its results to quickly spot any anomalies or entries that you do not recognize. It is also important that you talk with the system owner to identify which programs are unknown to them.
+KnockKnock does not automatically determine which programs are malicious or not. As with the rest of this [methodology](../methodology.md), it is necessary for you to eventually become familiar enough with its results to quickly spot any anomalies or entries that you do not recognize. It is also important that you talk with the system owner to identify which programs are unknown to them.
 
 ![KnockKnock](../img/knock3.png)
 
@@ -38,16 +38,14 @@ Here are the standard folders :
 * Kernel Extensions : `/Library/Extensions` or `/System/Library/Extensions/`
 * Other applications : `/Library` and `/Applications`
 
-
 ### 3. Check VirusTotal Scan Results
 
 During the scan, KnockKnock is checking the fingerprint of applications running on startup over the [VirusTotal](https://virustotal.com/) database and showing the result in the menu.
 
-![VT](../img/knock_vt.png)
+![VT](../img/knock\_vt.png)
 
 Any file identified as malicious y at least one antivirus in VirusTotal should be checked (although there are some false positive, keep that in mind if a very small number of antiviruses only are detecting it as malicious). A file not known by VirusTotal is also suspicious as their database contains most common legitimate applications.
 
-![VT](../img/knock_vt2.png)
+![VT](../img/knock\_vt2.png)
 
-**Please note:** [As discussed](safety.md), under normal circumstances you would prefer to not connect the tested computer to the Internet. Without an Internet connection, you are not able to immediately check with VirusTotal. However, it is possible to save KnockKnock results clicking *Settings* > *save scan results* and later open the results from a separate computer with Internet connection.
-
+**Please note:** [As discussed](safety.md), under normal circumstances you would prefer to not connect the tested computer to the Internet. Without an Internet connection, you are not able to immediately check with VirusTotal. However, it is possible to save KnockKnock results clicking _Settings_ > _save scan results_ and later open the results from a separate computer with Internet connection.

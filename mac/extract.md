@@ -1,8 +1,11 @@
 # Extract Data for Further Analysis
 
-If you have not found anything suspicious on the system but want to investigate further without the system, it is possible to collect interesting forensic data in order to analyze them later using [AutoMacTC](https://www.crowdstrike.com/blog/automating-mac-forensic-triage/)
+If you have not found anything suspicious on the system but want to investigate further without the system, it is possible to collect interesting forensic data in order to analyze them later using [AutoMacTC](https://www.crowdstrike.com/blog/automating-mac-forensic-triage/).
 
-**This program can extract some private information (such as browser history), keep that in mind while using it.**
+Important note:
+
+* This program can extract some private information (such as browser history), keep that in mind while using it.
+* This program has not been updated since 2021, only supports up to macOS 11.
 
 ## Launching AutoMacTC
 
@@ -13,6 +16,7 @@ Then you have to launch a terminal, from the menu > `Other` > `Terminal`. To run
 ![](../img/automactc.png)
 
 Running this command with the argument `-m all` will extract all the data available. It is also possible to extract more specific data by passing the name of a specific module. Here is the list of modules from [AutoMacTC documentation](https://www.crowdstrike.com/blog/automating-mac-forensic-triage/) :
+
 * pslist : current process list at time of AutoMacTC run
 * lsof : current file handles open at time of AutoMacTC run
 * netstat : current network connections at time of AutoMacTC run
@@ -29,7 +33,7 @@ Running this command with the argument `-m all` will extract all the data availa
 * quicklook : parsing Quicklooks database
 * safari : parsing safari visit history and download history
 * spotlight : parsing user spotlight top searches
-* ssh : parsing known_hosts and authorized_keys files for each user
+* ssh : parsing known\_hosts and authorized\_keys files for each user
 * syslog : parsing system.log files
 * systeminfo : basic system identification, such as current IP address, serial no, hostname
 * users : listing present and deleted users on the system
