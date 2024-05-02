@@ -18,7 +18,7 @@ The methodology to check for suspicious running processes is somewhat similar to
 
 ### 1. Verify image signatures
 
-Similarly to Autoruns, Process Explorer also allows to verify signatures of applications running by clicking *Options* and enabling "*Verify Image Signatures*". The same considerations and warnings we described in the [previous section](autoruns.md) apply here too. Even more so with running processes, the fact that a process application is signed does not necessarily mean it is safe. Malware often makes use of techniques such as [Process Hollowing](https://attack.mitre.org/techniques/T1093/) or [DLL Sideloading](https://attack.mitre.org/techniques/T1073/) in order to execute code from inside the context of a legitimate and signed application in order to thwart detection.
+Similarly to Autoruns, Process Explorer also allows to verify signatures of applications running by clicking _Options_ and enabling "_Verify Image Signatures_". The same considerations and warnings we described in the [previous section](autoruns.md) apply here too. Even more so with running processes, the fact that a process application is signed does not necessarily mean it is safe. Malware often makes use of techniques such as [Process Hollowing](https://attack.mitre.org/techniques/T1093/) or [DLL Sideloading](https://attack.mitre.org/techniques/T1073/) in order to execute code from inside the context of a legitimate and signed application in order to thwart detection.
 
 ![](../img/procexp2.png)
 
@@ -30,7 +30,7 @@ These processes normally would be called `powershell.exe` or `wscript.exe`.
 
 Following is an example of Process Explorer displaying an obviously malicious PowerShell script running on the system:
 
-![](../img/procexp_powershell.png)
+![](../img/procexp\_powershell.png)
 
 Hovering with the cursor over the process name shows the command-line arguments where we can clearly see the script is attempting to download and execute some additional code. Notice also the use of variating lower and upper case, such as "doWnLoAdfile": this is a very basic trick attackers use to evade equally basic detection patterns by security software.
 
@@ -40,7 +40,7 @@ Malware sometimes also comes in the form of a [Dynamic Link Library (DLL)](https
 
 Look out for any of those processes running, and try to determine what DLL file they are executing. For example, in the screenshot below, we can see an infected Windows system running a malicious DLL file located under `C:\Users\<Username>\AppData\` using `regsvr32.exe`.
 
-![](../img/procexp_regsvr.png)
+![](../img/procexp\_regsvr.png)
 
 ### 4. Look for processes of applications that should be visible
 
@@ -48,20 +48,19 @@ Among the many techniques often used by attackers there is, for example, [Proces
 
 For exampe, if you see a running `iexplore.exe` process, when there is obviously no open Internet Explorer window, you should consider this a worrying sign.
 
-![](../img/procexp_iexplore.png)
+![](../img/procexp\_iexplore.png)
 
 ### Optional: 5. Looking up programs on VirusTotal
 
-Similarly to [Autoruns](autoruns.md) section, Process Explorer also offers to look-up running processes on VirusTotal by searching the cryptographic hash of the respective executable files. This can be enabled by clicking *Options* > *VirusTotal.com* and enabling *Check VirusTotal.com*.
+Similarly to [Autoruns](autoruns.md) section, Process Explorer also offers to look-up running processes on VirusTotal by searching the cryptographic hash of the respective executable files. This can be enabled by clicking _Options_ > _VirusTotal.com_ and enabling _Check VirusTotal.com_.
 
 ![](../img/procexp3.png)
 
 **Please note:** the same considerations and warnings explained in the [previous section](autoruns.md) apply here too. Make sure to read them before proceeding.
 
-
 ## CrowdInspect
 
-[CrowdInspect](https://www.crowdstrike.com/resources/crowdinspect/) is a tool produced by the American security company CrowdStrike. CrowdInspect is very similar to Process Explorer, but it has some advantages. Firstly, the information presented tends to be more compact. Secondly, it does not only show currently live processes, but it also can show processes that have terminated since it launch (that you might have perhaps missed because they executed too quickly). Lastly, it performs a number more checks that Process Explorer currently does not support.
+[CrowdInspect](https://www.crowdstrike.com/resources/community-tools/crowdinspect-tool/) is a tool produced by the American security company CrowdStrike. CrowdInspect is very similar to Process Explorer, but it has some advantages. Firstly, the information presented tends to be more compact. Secondly, it does not only show currently live processes, but it also can show processes that have terminated since it launch (that you might have perhaps missed because they executed too quickly). Lastly, it performs a number more checks that Process Explorer currently does not support.
 
 ![](../img/crowdinspect.png)
 
@@ -69,6 +68,6 @@ Similarly to [Autoruns](autoruns.md) section, Process Explorer also offers to lo
 
 Probably the most interesting feature CrowdInspect introduces, is the ability to identify any [injected processes](https://attack.mitre.org/techniques/T1055/). Process injection is a category of techniques whose objective is run malicious code within the context of a separate, generally legitimate, application (such as `explorer.exe`). Process injection is often used by malware authors in order to obtain additional privileges on the system or, for example, to evade detection.
 
-CrowdInspect will alert you of any injected processes by displaying a visible red dot under the "*Inject*" column. Injected processes are generally a very good indicator that there might be an active infection on the tested computer.
+CrowdInspect will alert you of any injected processes by displaying a visible red dot under the "_Inject_" column. Injected processes are generally a very good indicator that there might be an active infection on the tested computer.
 
-![](../img/crowdinspect_injection.png)
+![](../img/crowdinspect\_injection.png)
