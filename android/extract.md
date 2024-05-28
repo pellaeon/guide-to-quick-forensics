@@ -2,7 +2,7 @@
 
 In this section we introduce a few tools that collects device information or backups that could be sent to experts for analysis.
 
-## [androidqf](https://github.com/botherder/androidqf) - Android Quick Forensics
+## [androidqf](https://github.com/mvt-project/androidqf) - Android Quick Forensics
 
 androidqf is an easy-to-use desktop application that collects system and app information and outputs them into a files that could be sent to experts for further analysis. Follow the official instructions to operate.
 
