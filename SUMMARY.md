@@ -30,6 +30,7 @@
   * [Check Storage](android/check-storage.md)
   * [Check if the Phone is under Android Device Policy](android/check-if-the-phone-is-under-android-device-policy.md)
   * [Check if the Phone is Rooted](android/root.md)
+  * [Check if Developer Options is Enabled](android/check-if-developer-options-is-enabled.md)
   * [Analyze Applications](android/analyze-applications.md)
   * [Extract Data for Further Analysis](android/extract.md)
   * [Optional : Check for Indicators of Stalkerware Installation](android/stalkerware.md)
