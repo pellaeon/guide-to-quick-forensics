@@ -8,33 +8,7 @@ androidqf is an easy-to-use desktop application that collects system and app inf
 
 ## Alternatives
 
-Alternative ways to generate device backups. Backups g enerated using these tools contain less useful information, so should be used only in case when androidqf isn't usable.
+Alternative ways to generate device backups. Backups generated using these tools contain less useful information, so should be used only in case when androidqf isn't usable.
 
-* Using vendor apps such as Samsung's [Smart Switch](https://www.samsung.com/us/support/answer/ANS00048603/).
-* Using generic apps such as [https://github.com/mrrfv/linux-android-backup](https://github.com/mrrfv/linux-android-backup)
-
-## \[obsolete] Note: Set-up ADB USB Debugging
-
-To use Snoopdroid, you need to enable USB debugging in the developers options. Here are the instructions to do so from the [official Android documentation](https://developer.android.com/studio/debug/dev-options#enable) :
-
-* On Android 4.1 and lower, the Developer options screen is available by default.
-* On Android 4.2 and higher, you must enable this screen as follows:
-  * Open the Settings app.
-  * (Only on Android 8.0 or higher) Select System.
-  * Scroll to the bottom and select About phone.
-  * Scroll to the bottom and tap Build number 7 times.
-  * Return to the previous screen to find Developer options near the bottom.
-
-At the top of the Developer options screen, you can toggle the options on and off (figure 1). You probably want to keep this on. When off, most options are disabled except those that don't require communication between the device and your development computer.
-
-Next, you should scroll down a little and enable USB debugging. This allows Android Studio and other SDK tools to recognize your device when connected via USB, so you can use the debugger and other tools.
-
-To test that the USB connection is working, you can use the ADB shell, just run `adb devices` and check if you see a connected device. for instance :
-
-```
-> adb devices
-List of devices attached
-RF2F722NU0C	device
-```
-
-You can test that the access is working by running `adb shell`, the phone will then ask you to confirm that the device is allowed to debug the phone.
+* Using vendor backup apps such as Samsung's [Smart Switch](https://www.samsung.com/us/support/answer/ANS00048603/).
+* Using generic backup programs such as [Open Android Backup](https://github.com/mrrfv/open-android-backup).
