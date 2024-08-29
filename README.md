@@ -9,8 +9,8 @@ While the methodology introduced here by no means is sufficient to provide a def
 **Note**:
 
 * This guide is a fork from the [original guide by Security Without Borders](https://github.com/securitywithoutborders/guide-to-quick-forensics).
-* This fork aims to improve the mobile part.
-* This fork is currently under development. You can contribute to this text [here](https://github.com/securitywithoutborders/guide-to-quick-forensics).
+* This fork aims to keep existing content up-to-date, while adding latest information.
+* This fork is currently under development. You can contribute to this text [here](https://github.com/pellaeon/guide-to-quick-forensics).
 
 ## Why do Quick Forensics?
 

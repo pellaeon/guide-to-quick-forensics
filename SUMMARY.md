@@ -53,4 +53,5 @@
   * [Mac Computers](remote/mac.md)
   * [Android](remote/android.md)
 * [Concluding a Forensic Gathering](concluding-a-forensic-gathering.md)
+* [References and Further Learning](references-and-further-learning.md)
 * [License and Credits](license-credits.md)
