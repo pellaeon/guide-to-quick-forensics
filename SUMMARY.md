@@ -17,6 +17,7 @@
   * [Review Running Processes](mac/processes.md)
   * [Review Kernel Extensions](mac/kernel.md)
   * [Review Network Connections](mac/network.md)
+  * [Review XProtect Logs](mac/review-xprotect-logs.md)
   * [Extract Data for Further Analysis](mac/extract.md)
 * [Checking Smartphones](smartphones.md)
   * [Note: curriculum](smartphones/note-curriculum.md)
