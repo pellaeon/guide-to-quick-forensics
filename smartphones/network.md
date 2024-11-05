@@ -19,7 +19,7 @@ Or, use a cloud-based DNS server like NextDNS. The downside of cloud-based DNS s
 
 One cloud DNS provider is NextDNS, which allows you to configure a DNS server without an account. NextDNS also provides apps for major operating systems to configure the device to use your custom server. First, go to [https://my.nextdns.io/start](https://my.nextdns.io/start), which will create a temporary _Configuration ID,_ which you should enter into the NextDNS app. Then, all the DNS queries that the phone is making will be logged in the _Logs_ tab.
 
-![DNS queries recorded in NextDNS](../.gitbook/assets/Screenshot\_20220506\_165152.png)
+![A screenshot of NextDNS, showing several DNS queries being collected. Many of the queries have a favicon next to them that implies they came from Apple](../.gitbook/assets/Screenshot\_20220506\_165152.png "DNS queries recorded in NextDNS")
 
 ## Monitor Full Network Traffic from a Wifi Router
 
@@ -68,7 +68,7 @@ The [Civil Sphere Project](https://www.civilsphereproject.org/what-we-do), an or
 
 The Emergency VPN service allows to analyze and identify suspicious traffic from a mobile device used by journalists and NGOs. [On demand](https://www.civilsphereproject.org/get-started), the Civil Sphere team will send you credentials to log-in to their VPN with your phone. While using their VPN, they will record all the traffic coming out of your phone for a maximum of three days. At the end of the recording, they will analyze the traffic using automated and manual techniques in order to identify malicious activity or security issues in the applications running on your phone, and send you the result of this analysis by email.
 
-![](../img/emergencyvpn.png)
+![A graphic of Emergency VPN, giving users a step-by-step guide on how it works. It asks them to 1. download the application 2. request a VPN account 3. import the new profile into your OpenVPN application 4. install and authorize the profile in your OpenVPN application 5. connect to the VPN for up to 3 days to give us enough data to analyze 6. receive a report from the team about any security threats or concerns you should be aware of](../img/emergencyvpn.png)
 
 One of the limitation of this technique is that you have to provide network traffic from your mobile phone to a third party organisation (Civil Sphere), you can [contact them](https://www.civilsphereproject.org/get-started) to have more information about how this data is stored and used. The advantage of this solution is that you can rely on them to analyze the network traffic, which can be a complex and time-consuming process.
 
