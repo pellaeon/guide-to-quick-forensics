@@ -2,7 +2,7 @@
 
 Messages containing links are a common attack vector.
 
-![A message containing a link that infects the target with Cytrox Predator malware. Source: Citizen Lab](https://citizenlab.ca/wp-content/uploads/2021/12/Fig-7.png)
+![A screenshot of an online translation service, showing a message in Arabic and a translation into English. The translation says 'Turkey asks the Egyptian opposition channels to stop criticizing Egypt, and Cairo comments on the move...'](https://citizenlab.ca/wp-content/uploads/2021/12/Fig-7.png "A message containing a link that infects the target with Cytrox Predator malware. Source: Citizen Lab")
 
 Links could be sent from any instant messaging apps or SMS. There are a few kinds of malicious links:
 
