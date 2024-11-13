@@ -4,7 +4,7 @@ Many chat applications allow to link another device to the account in order to r
 
 ## Signal
 
-Go to the page "Linked Devices" in Parameters (`...` in the menu) > Settings. You will see a list of connected devices, you can tap on any unknown device in order to disconnect it.
+Go to the "Linked Devices" submenu in your Settings. You will see a list of connected devices, you can tap on any unknown device in order to disconnect it.
 
 <center>
 <img src="../img/signal1.png" style="max-width:40%" alt = "A screenshot of the settings panel of the Signal messenger, with 'linked devices' selected">
@@ -13,7 +13,7 @@ Go to the page "Linked Devices" in Parameters (`...` in the menu) > Settings. Yo
 
 ## WhatsApp
 
-Go to Parameters (`...` in the menu) and click on "WhatsApp Web".
+Go to Parameters (`Settings` in the menu at the bottom) and click on "WhatsApp Web".
 
 You can see here all the web browsers connected to your WhatsApp account.
 
@@ -23,7 +23,7 @@ You can see here all the web browsers connected to your WhatsApp account.
 
 ## Telegram
 
-On your Telegram application, visit the page Settings > Privacy and Security > Active Sessions. This page shows you all the active sessions you have with your account, you can tap on any session to terminate it.
+On your Telegram application, visit Settings > Privacy and Security > Active Sessions. This page shows you all the active sessions you have with your account, you can tap on any session to terminate it.
 
 <center>
 <img src="../img/telegram.png" style="max-width:40%" alt = "A screenshot of active sessions in the Telegram messenger. It shows sessions in Telegram Web on Chrome on Linux and through a service called `ilovecrumble` running on Linux Desktop">

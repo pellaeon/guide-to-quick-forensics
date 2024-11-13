@@ -17,7 +17,7 @@ Co-processors are processors used only for a particular purpose other than the s
 * Co-processors can be exploited
 * Co-processor exploits are sophisticated and uncommon
 
-The rest of this guide will thus focus on the softwares running on the application processor.
+The rest of this guide will thus focus on the software running on the application processor.
 
 ### Operating System
 
@@ -25,7 +25,7 @@ Smartphone operating systems differ from computer operating systems in that they
 
 ![An illustration of the Android software stack. For an explanation of all its components, check out https://developer.android.com/guide/platform](https://developer.android.com/guide/platform/images/android-stack\_2x.png)
 
-It is possible for attackers to exploit kernel vulnerabilities, however these vulnerabilities are quite rare and usually requires sophisticated techniques to exploit.
+It is possible for attackers to exploit kernel vulnerabilities, however these vulnerabilities are quite rare and usually require sophisticated techniques to exploit.
 
 ### System Applications
 

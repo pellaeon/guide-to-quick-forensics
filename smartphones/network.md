@@ -8,7 +8,7 @@ Many mobile apps and malware now enable "SSL Pinning", which makes it hard for u
 
 ## Monitor DNS Queries
 
-Instead of monitoring full network traffic, which requires a complex setup, we can jiust monitor the DNS queries. Most operating systems allow users to configure their own DNS servers. We can configure our own DNS server to log queries and point the device under test to our server.
+Instead of monitoring full network traffic, which requires a complex setup, we can just monitor the DNS queries. Most operating systems allow users to configure their own DNS servers. We can configure our own DNS server to log queries and point the device under test to our server.
 
 We can deploy our own DNS server with:
 
