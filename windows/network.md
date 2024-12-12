@@ -6,17 +6,17 @@ In order to do check for ongoing connections you can, for example, record the wh
 
 One popular tool to do this is [TCPView](https://technet.microsoft.com/en-us/sysinternals/tcpview.aspx), also from the Sysinternals Suite by Microsoft.
 
-![tcpview](../img/tcpview.png)
+![A screenshot of Sysinternals TCPView. It shows several columns, including Process, PID, Protocol (which displays TCP, UDP, TCPV6, and UDPV6), local address, local port, remote address, and remote port.](../img/tcpview.png "tcpview")
 
 The tool is pretty straightforward: it lists all established network connections and provide information on the originating process, and the destination. You will likely be surprised to observe the amount of network connections active even with seemingly idle systems. Most often you will see network activity from background processes for example for Microsoft services, Google Chrome, Adobe Reader, Skype, etc.
 
 Another tool we can use to observe active network connections is CrowdInspect, which we showcased in the previous section on [reviewing running processes](processes.md). The information provided by CrowdInspect is very similar to that provided by TCPView.
 
-![](../img/crowdinspect\_injection.png)
+![A screenshot of CrowdInspect, with a process called `iexplore.exe` selected, which has a red dot in the column marked Inject. That process has established a TCP connection. It is trying to connect to remote IP 216.6.0.28](../img/crowdinspect\_injection.png)
 
 For example, in the screenshot above we can see a running `iexplore.exe` process that not only has been flagged as _injected_, but seems to be actively attempting to connect to the Remote IP `216.6.0.28`. Because there is no visible Internet Explorer running on the system it is definitely suspicious to see active network connections from it. TCPView would appear like following on the same infected system:
 
-![](../img/tcpview\_infected.png)
+![A screenshot of TCP view, with a process called `iexplore.exe` selected. That process is trying to connect to remote IP 216.6.0.28, the same IP as in the above screenshot.](../img/tcpview\_infected.png)
 
 (Note: these tools show display attempted connections to remote locations even if the computer is at the moment disconnected from the Internet).
 

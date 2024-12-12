@@ -4,7 +4,7 @@
 
 You should run this program from a USB key with enough storage space, double click on the binary file and follow the instructions.
 
-![pcqf](../.gitbook/assets/pcqf1.PNG)
+![A screenshot of a window with a commandline program running therein. The program is PCQF and is asking the user if they would like to take a memory snapshot.](../.gitbook/assets/pcqf1.PNG "pcqf")
 
 Unless you have a good reason to do so, it is recommended not to take a memory snapshot as it is contains a lot of private information (it may contains passwords for instance).
 
