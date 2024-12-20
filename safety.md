@@ -13,11 +13,11 @@ Para ajudar você a estimar o nível de risco enfrentado pela proprietária do d
 
 Esperamos que a resposta a essas perguntas te ajude a decidir como proceder com a análise forense rápida dos dispositivos.
 
-## O dispositivo deve se conectar on-line?
+## O dispositivo deve se conectar online?
 
-Se decidir prosseguir com a inspeção, é provável que também queira planejar que o dispositivo seja completamente desconectado de qualquer conexão Wi-Fi ou de Internet móvel.
+Se decidir prosseguir com a inspeção, é provável que também queira planejar que o dispositivo seja completamente desconectado de qualquer conexão WiFi ou de Internet móvel.
 
-No caso de um laptop, o ideal é pedir à proprietária para desativar o Wi-Fi antes de desligá-lo e trazer o dispositivo até você. De qualquer forma, certifique-se de que nenhuma conexão esteja disponível antes de começar. No caso de um telefone celular, talvez seja melhor pedir à proprietária que desligue o dispositivo e remova o cartão SIM antes de levá-lo até você.
+No caso de um laptop, o ideal é pedir à proprietária para desativar o WiFi antes de desligá-lo e trazer o dispositivo até você. De qualquer forma, certifique-se de que nenhuma conexão esteja disponível antes de começar. No caso de um telefone celular, talvez seja melhor pedir à proprietária que desligue o dispositivo e remova o cartão SIM antes de levá-lo até você.
 
 Mantenha suas ferramentas em uma unidade USB externa. Limite a transferência de arquivos e limpe as sobras quando terminar.
 
