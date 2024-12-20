@@ -45,7 +45,7 @@ Você também pode hospedar o MobSF por conta própria ou usar serviços de hosp
 
 Outras ferramentas
 
-Há também outras ferramentas de análise on-line. As listadas abaixo não são especializadas em APK.
+Há também outras ferramentas de análise online. As listadas abaixo não são especializadas em APK.
 
 * [https://cuckoo.cert.ee/](https://cuckoo.cert.ee/)
 * [https://app.any.run/](https://app.any.run/)
