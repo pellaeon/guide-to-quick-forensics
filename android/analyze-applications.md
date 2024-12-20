@@ -25,7 +25,7 @@ Algumas ferramentas exigem que você extraia os arquivos APK manualmente e os ca
 
 Depois que um APK é extraído, também é possível calcular o hash do arquivo (MD5 ou SHA) e pesquisar o hash usando sites como o VirusTotal.com .&#x20;
 
-### Ferramentas on-line
+### Ferramentas online
 
 ### Exodus Privacy
 
