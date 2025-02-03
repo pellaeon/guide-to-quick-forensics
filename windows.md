@@ -1,5 +1,7 @@
 # Checking Windows Computers
 
+_Note: This section is also available in [French](https://pellaeon.gitbook.io/mobile-forensics/fr/windows), [Spanish](https://pellaeon.gitbook.io/mobile-forensics/es/windows), [Brazilian Portuguese](https://pellaeon.gitbook.io/mobile-forensics/pt-br/windows), and [Arabic](https://pellaeon.gitbook.io/mobile-forensics/ar/windows)._
+
 In this section we will go through some of the basic steps to take when checking a suspected Windows computer. Following are the tools (with links to their respective download pages) we are going to demonstrate here:
 
 * [Sysinternals Autoruns](https://technet.microsoft.com/en-ca/sysinternals/bb963902.aspx) produced by Microsoft.
